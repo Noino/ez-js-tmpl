@@ -1,6 +1,6 @@
 /*! Ez JS template engine | (c) 2016 William Wendell */
-var Template = (function(){
-	var Parser = function(){
+
+	var EzJStmpl = function(){
 		$.extend(this, {
 			tmpl: (function(h){
 				// scrape first html comment content from each
@@ -21,5 +21,3 @@ var Template = (function(){
 			})
 		},this);
 	};
-	return new Parser();
-})();
